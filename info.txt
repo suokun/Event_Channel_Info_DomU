@@ -1,2 +1,47 @@
 Event_Channel_Info_DomU
 =======================
+
+//There are 
+//6 xen-dynamic-event type irq, 
+//3 xen-percpu-ipi, 
+//2 xen-percpu-virq,
+//1 ECS_RESERVED
+//in Dom U
+
+//ECS_FREE: 0
+//ECS_RESERVED: 1
+//ECS_UNBOUND: 2
+//ECS_INTERDOMAIN: 3
+//ECS_PIRQ: 4
+//ECS_VIRQ: 5
+//ECS_IPI: 6
+
+
+(XEN) event bucket 0 event channel 0 state is 1
+(XEN) event bucket 0 event channel 1 state is 3
+(XEN) event bucket 0 event channel 2 state is 3
+(XEN) event bucket 0 event channel 3 state is 5
+(XEN) event bucket 0 event channel 4 state is 6
+(XEN) event bucket 0 event channel 5 state is 6
+(XEN) event bucket 0 event channel 6 state is 5
+(XEN) event bucket 0 event channel 7 state is 6
+(XEN) event bucket 0 event channel 8 state is 3
+(XEN) event bucket 0 event channel 9 state is 3
+(XEN) event bucket 0 event channel 10 state is 3
+(XEN) event bucket 0 event channel 11 state is 3
+(XEN) event bucket 0 event channel 12 state is 0
+(XEN) event bucket 0 event channel 13 state is 0
+(XEN) event bucket 0 event channel 14 state is 0
+(XEN) event bucket 0 event channel 15 state is 0
+(XEN) event bucket 0 event channel 16 state is 0
+(XEN) event bucket 0 event channel 17 state is 0
+(XEN) event bucket 0 event channel 18 state is 0
+(XEN) event bucket 0 event channel 19 state is 0
+(XEN) event bucket 0 event channel 20 state is 0
+(XEN) event bucket 0 event channel 21 state is 0
+(XEN) event bucket 0 event channel 22 state is 0
+(XEN) event bucket 0 event channel 23 state is 0
+(XEN) event bucket 0 event channel 24 state is 0
+(XEN) event bucket 0 event channel 25 state is 0
+
+
