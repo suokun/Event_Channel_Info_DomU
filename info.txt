@@ -45,3 +45,31 @@ Event_Channel_Info_DomU
 (XEN) event bucket 0 event channel 25 state is 0
 
 
+//
+$ cat /proc/interrupts 
+           CPU0       
+245:       5927   xen-dyn-event     eth0
+246:      11336   xen-dyn-event     blkif
+247:          0   xen-dyn-event     vkbd
+248:          1   xen-dyn-event   
+249:        430   xen-dyn-event     vfb
+250:        418   xen-dyn-event     xenbus
+251:          0  xen-percpu-ipi       callfuncsingle0
+252:          0  xen-percpu-virq      debug0
+253:          0  xen-percpu-ipi       callfunc0
+254:          0  xen-percpu-ipi       resched0
+255:      69231  xen-percpu-virq      timer0
+NMI:          0   Non-maskable interrupts
+LOC:          0   Local timer interrupts
+SPU:          0   Spurious interrupts
+PMI:          0   Performance monitoring interrupts
+IWI:          0   IRQ work interrupts
+RES:          0   Rescheduling interrupts
+CAL:          0   Function call interrupts
+TLB:          0   TLB shootdowns
+TRM:          0   Thermal event interrupts
+THR:          0   Threshold APIC interrupts
+MCE:          0   Machine check exceptions
+MCP:          0   Machine check polls
+ERR:          0
+MIS:          0
